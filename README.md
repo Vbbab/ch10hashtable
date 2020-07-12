@@ -32,3 +32,7 @@ Creates a `HashSet`, named `testSet`, which excepts an `Integer` key and a `Stri
 
 # Map
 # HashMap
+
+# General
+| **:warning:Warning: `equals()` and `hashCode()` are both user/implementation-defined, so *not necessarily checking by value.*** |
+|---|

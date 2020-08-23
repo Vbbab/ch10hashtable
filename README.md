@@ -13,6 +13,7 @@ Type: `Interface` (Non-implemented)
     
     `size()`: returns the number of elements in this set (its cardinality)
     
+    `contains(E e)`: Element exists? (bool)
 
 Related: `TreeSet` (Gold), `LinkedHashSet` (Gold)
 
@@ -31,6 +32,16 @@ Creates a `HashSet`, named `testSet`, which excepts an `Integer` key and a `Stri
 
 
 # Map
+Type: `Interface` (Non-implemented)
+`<K, V>` key-value pair
+
+```Map<String, String> myMap; // Key: String, Value: String```
+- Key methods:
+    
+    `put(K key, V value)` - Puts a thing into the `Map`. **If `key` exists within the `Map`'s keys, its value is replaced with `value`.**
+    
+    
+    
 # HashMap
 
 # General

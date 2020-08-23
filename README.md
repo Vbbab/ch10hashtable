@@ -18,14 +18,14 @@ Related: `TreeSet` (Gold), `LinkedHashSet` (Gold)
 
 # HashSet
 
-Is a class, implements methods
+Is a class, implements methods from interface `Set`
 
 * Key: `iterator()`, returns an iterable iterator over the elements in the set
 
-* `<K, V>` key-value pair
+* `<K>` key type
 
 ```java
-HashSet<Integer, String> testSet = new HashSet<Integer, String>();
+HashSet<Integer> testSet = new HashSet<Integer>();
 ```
 Creates a `HashSet`, named `testSet`, which excepts an `Integer` key and a `String` value
 
